@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
 import dateFns from "date-fns";
 import './App.css';
+import Calendar from './components/Calendar'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <div>Header</div>
-        <div>Days</div>
-        <div>Cells</div>
+       <Calendar />
       </div>
     );
   }
