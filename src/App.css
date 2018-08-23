@@ -74,6 +74,7 @@ main {
   margin: 0 auto;
   margin-top: 5em;
   max-width: 80em;
+  /* height: 130em; */
 }
 
 
@@ -177,7 +178,7 @@ main {
 
 .calendar .body .selected {
   border-left: 10px solid transparent;
-  border-image: linear-gradient(45deg, #1a8fff 0%,#53cbf1 40%);
+  border-color: rgb(255,45,85);
   border-image-slice: 1;
 }
 
@@ -210,7 +211,7 @@ main {
 .calendar .body .cell .bg {
   font-weight: 700;
   line-height: 1;
-  color: var(--main-color);
+  color: rgb(255,45,85);
   opacity: 0;
   font-size: 8em;
   position: absolute;
@@ -221,7 +222,7 @@ main {
 }
 
 .calendar .body .cell:hover .bg, .calendar .body .selected .bg  {
-  opacity: 0.05;
+  opacity: 0.08;
   transition: .5s ease-in;
 }
 
@@ -229,4 +230,8 @@ main {
   flex-grow: 0;
   flex-basis: calc(100%/7);
   width: calc(100%/7);
+}
+
+.credits {
+  color: var(--main-color)
 }

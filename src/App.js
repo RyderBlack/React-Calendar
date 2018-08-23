@@ -17,6 +17,11 @@ class App extends Component {
         <main>
           <Calendar />
         </main>
+        <footer style={{"textAlign": "center", "marginTop": "20px"}}>
+          <p>Copyright 2018 -
+            <a className="credits" href="https://ryhad.com">Ryhad, Inc</a>
+          </p>
+        </footer>
       </div>
     );
   }
