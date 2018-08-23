@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import dateFns from "date-fns";
 import './App.css';
-import Calendar from './components/Calendar'
+import Calendar from './components/Calendar';
 
 class App extends Component {
   render() {
